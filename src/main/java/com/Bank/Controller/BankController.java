@@ -27,7 +27,7 @@ public class BankController {
 		return bs.getBranchByIfsccode(ifsccode);
 	}
 	
-	@GetMapping(value = "/getAllBankDetails")
+	@GetMapping(value = "/getAllBankDetailsAllBankDetails")
 	public List<Bank> getAllBankDetails() {
 		return bs.getAllBankDetails();
 	}
